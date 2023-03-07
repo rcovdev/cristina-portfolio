@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Topbar = () => {
-    window.onload=function(){
+    window.onpageshow=function(){
         const hamburger = document.querySelector("#hamburger");
         const menu = document.querySelector("#menu");
         const firstBar = document.querySelector("#firstBar");
